@@ -1,0 +1,36 @@
+# CODEOWNERS file for event-agent-45
+# Global owners - will be requested for all PRs
+* @Armor-test/grp-apps @Armor-test/squad-network @Armor-test/team-content
+
+# Directory ownership
+/public/ @Armor-test/squad-security @Armor-test/dept-qa
+/services/ @Armor-test/unit-storage @Armor-test/team-support
+/plugins/ @Armor-test/grp-notifications @Armor-test/dept-devops
+/src/ @Armor-test/dept-qa @Armor-test/team-research
+/tools/ @Armor-test/dept-messaging @Armor-test/grp-release
+/internal/ @Armor-test/team-metrics @Armor-test/dept-messaging
+/config/ @Armor-test/dept-reliability @Armor-test/squad-reporting @Armor-test/squad-network
+/spec/ @Armor-test/dept-frontend @Armor-test/squad-search @Armor-test/grp-notifications
+/db/ @Armor-test/unit-mobile @Armor-test/squad-automation
+/third_party/ @Armor-test/dept-data @Armor-test/dept-messaging
+
+# File type ownership
+*.tf @Armor-test/team-logging @Armor-test/dept-network
+*.h @Armor-test/team-research @Armor-test/unit-ux @Armor-test/grp-notifications
+*.config @Armor-test/team-auth @Armor-test/grp-ui
+*.rs @Armor-test/squad-ui @Armor-test/squad-search
+*.yml @Armor-test/squad-storage @Armor-test/squad-automation
+*.js @Armor-test/grp-reporting @Armor-test/team-metrics
+*.ts @Armor-test/team-auth @Armor-test/team-metrics @Armor-test/grp-payments
+*.xml @Armor-test/dept-messaging @Armor-test/dept-devops @Armor-test/team-product
+*.rb @Armor-test/dept-payments @Armor-test/grp-reliability @Armor-test/unit-storage
+*.properties @Armor-test/grp-reliability @Armor-test/team-support @Armor-test/squad-notifications
+*.gradle @Armor-test/squad-ui @Armor-test/team-research
+*.sh @Armor-test/squad-notifications @Armor-test/team-ux
+*.lock @Armor-test/grp-sre @Armor-test/team-ux
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
